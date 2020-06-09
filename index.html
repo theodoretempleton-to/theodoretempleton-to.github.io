@@ -8,9 +8,15 @@
 
 <h1>My Website</h1>
 
-<p>Hello! Seems like you discovered my website. Please fill in this form to show where you came from, Thanks!</p>
+<p>Hello! Seems like you discovered my website. </p>
   <form action="http://google.com">
     <input type="submit" value="Go to Google" />
+   // Enable navigation prompt
+window.onbeforeunload = function() {
+    return true;
+};
+// Remove navigation prompt
+window.onbeforeunload = null;
 </form>
 </body>
 </html>
