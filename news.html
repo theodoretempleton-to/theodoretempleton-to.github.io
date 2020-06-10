@@ -1,8 +1,19 @@
-<script type = "text/javascript">
+<html>
+   <head>   
+      <script type = "text/javascript">
          <!--
             function Warn() {
-               alert ("This is a warning message!");
-               document.write ("This is a warning message!");
+               alert ("This content is not availible in your region");
+               document.write ("Region");
             }
          //-->
       </script>     
+   </head>
+   
+   <body>
+      <p>Click to proceed </p>      
+      <form>
+         <input type = "button" value = "Proceed" onclick = "Warn();" />
+      </form>     
+   </body>
+</html>
