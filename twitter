@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body  {
+  background-image: url("image");
+  background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+
+  <h1 style="text-align: center;"><span style="color: #00ff00;"><strong>You came from my twitter sop you get this special page</strong></span></h1>
+
+<p> Click the link below </p>
+ <a href="https://theodoret8.github.io">Homepage</a>  
+  
+</body>
+</html>
+ 
